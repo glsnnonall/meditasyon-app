@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:minHeight="?attr/actionBarSize"
+    android:background="@drawable/shadow"
+    android:layout_marginLeft="-1dp"
+    android:layout_marginTop="-1dp"
+    android:layout_marginRight="-1dp"
+    >
+    <TextView
+        android:fontFamily="@font/nunito_semibold"
+        android:textColor="#000"
+        android:textSize="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toolbar Title"
+        android:layout_gravity="center"
+        android:id="@+id/toolbar_title" />
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/back"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/back_arrow"
+        ></ImageButton>
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="12dp"
+        android:background="@android:color/transparent"
+        android:text="Bitti"
+        android:fontFamily="@font/nunito_semibold"
+        android:textSize="14dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/doneButton"
+        android:visibility="gone"
+        ></Button>
+
+</androidx.appcompat.widget.Toolbar>

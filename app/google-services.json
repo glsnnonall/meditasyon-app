@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "489952505361",
+    "firebase_url": "https://meditasyon-b54b2.firebaseio.com",
+    "project_id": "meditasyon-b54b2",
+    "storage_bucket": "meditasyon-b54b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489952505361:android:d66f52621a17ce40108bb0",
+        "android_client_info": {
+          "package_name": "com.gulsum.onal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489952505361-4sgsm4j80nn8nhhqipps2ve8pikbecau.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gulsum.onal",
+            "certificate_hash": "4d344025f308304689e16fd156fc390d86016cfa"
+          }
+        },
+        {
+          "client_id": "489952505361-6ljp2sgs01b6srt48jid5f268n48icp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw0MN9gBipGcbHbUTJnrAFL_BcFN2QOQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489952505361-6ljp2sgs01b6srt48jid5f268n48icp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

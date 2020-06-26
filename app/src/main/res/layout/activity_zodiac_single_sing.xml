@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu.ZodiacSingleSing">
+    <include layout="@layout/custom_toolbar" android:id="@+id/toolbar"></include>
+    <ScrollView
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+            android:layout_below="@id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <ProgressBar
+                    android:id="@+id/progres"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="18dp"
+                    ></ProgressBar>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_centerVertical="true"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="8dp"
+                    android:id="@+id/profileImage"
+                    ></de.hdodenhof.circleimageview.CircleImageView>
+                <TextView
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/username"
+                    android:text="username"
+                    android:fontFamily="@font/nunito_semibold"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/profileImage"
+                    ></TextView>
+
+
+                ></RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/header"
+                android:id="@+id/text"
+                android:fontFamily="@font/nunito_semibold"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_margin="8dp"
+                ></TextView>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

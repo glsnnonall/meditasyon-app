@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.cardview.widget.CardView
+    android:layout_margin="8sp"
+    android:elevation="8dp"
+    app:cardCornerRadius="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <ProgressBar
+                android:id="@+id/progres"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="18dp"
+                ></ProgressBar>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_centerVertical="true"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/profileImage"
+                ></de.hdodenhof.circleimageview.CircleImageView>
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/username"
+                android:text="username"
+                android:fontFamily="@font/nunito_semibold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/profileImage"
+                ></TextView>
+
+
+            ></RelativeLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Title"
+            android:textAlignment="center"
+
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="4dp"
+
+            android:textStyle="normal"></TextView>
+
+        <TextView
+            android:id="@+id/mainText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_semibold"
+            android:layout_below="@id/title"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="4dp"
+            android:text="Meditasyon sadece yetişkinlere değil aynı zamanda gençlere de iyi gelen bir teknik. Koronavirus dünyanın her yerinde, bizde olduğu kadar çocuklar üzerinde de paniğe ve korkuya sebep oldu. Çocuğunuza bu endişeler ve korkular hakkında konuşma fırsatı vermek hayati önem taşıyor. Bununla birlikte çocuklarınızın üzerinden bu yükü ve endişeleri almanın, onları desteklemenin birçok yolu var.  Çocukların bu endişelerden kurtulmaları için onları rahatsız eden şeyleri görselleştirmelerine yardımcı olmak benim en yararlı bulduğum yöntemlerden biri. Bunu yapmanın en kolay yolu, canlı ve açıklayıcı bir sahneyi tanımlamak ve çocuğun bu anı zihninde canlandırmasına izin vermektir. Aşağıda bu yöntemin başarılı olduğunu kanıtlamış bazı fikirler ekledim. Her birinden önce çocuğunuzdan rahat, sessiz bir yer bulup, vücutlarının “erimesine” veya “jöleye dönüşmesine” izin vermelerini ve derin nefesler alıp vermelerini isteyin."
+            android:textColor="#000"
+            android:maxHeight="200dp"
+            android:maxLines="8"
+            ></TextView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_below="@id/mainText"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/mainTransparent"
+            android:layout_marginLeft="16dp"
+            android:background="@android:color/transparent"
+            android:text="Devamını Oku-->"
+            android:textSize="8dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:layout_marginBottom="4dp"
+            android:id="@+id/readMore"
+            ></Button>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textSize="10sp"
+            android:layout_marginLeft="4dp"
+            android:text="10 saat önce"
+            android:layout_below="@id/mainText"
+            ></TextView>
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
+</RelativeLayout>

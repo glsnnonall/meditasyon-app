@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu.ReadMore">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <RelativeLayout
+
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_marginTop="16dp"
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                >
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/profileImage"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    >
+
+                </de.hdodenhof.circleimageview.CircleImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/name"
+                    android:layout_toEndOf="@id/profileImage"
+                    android:layout_marginLeft="8dp"
+                    android:fontFamily="@font/nunito_semibold"
+                    android:textSize="14dp"
+                    ></TextView>
+            </RelativeLayout>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/header"
+                android:id="@+id/title"
+                android:fontFamily="@font/nunito_semibold"
+                android:textColor="@color/mainTransparent"
+                android:textSize="14dp"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:id="@+id/mainText"
+                android:fontFamily="@font/nunito_semibold"
+                android:textColor="#000"
+                android:textSize="12sp"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mainText"
+                android:layout_margin="8dp"
+                android:text="10 saat önce"
+                android:textSize="12sp"
+                android:fontFamily="@font/nunito_semibold"
+
+                ></TextView>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
