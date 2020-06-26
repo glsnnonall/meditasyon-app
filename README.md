@@ -1,0 +1,2 @@
+# meditasyon-app
+Bitirme Ödevi
